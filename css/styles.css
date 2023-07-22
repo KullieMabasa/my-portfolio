@@ -1,0 +1,193 @@
+:root {
+  --first-font: "Prompt", sans-serif;
+  --secondary-font: "Open Sans", sans-serif;
+  --paragraph-font: "Poppins", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.whole-page {
+  background-color: black;
+  color: white;
+  font-family: var(--secondary-font);
+}
+
+h1 {
+  font-size: 80px;
+  font-family: var(--first-font);
+}
+
+h2 {
+  font-family: var(--secondary-font);
+  font-weight: bold;
+  font-size: 40px;
+}
+
+h3 {
+  font-family: var(--secondary-font);
+}
+p {
+  font-size: 20px;
+  font-family: var(--paragraph-font);
+}
+
+img {
+  width: 65%;
+}
+
+/*Style rule for the navbar*/
+.kuli-logo {
+  width: 5%;
+}
+
+.header {
+  padding: 100px 0 0;
+  color: white;
+}
+
+.container-index {
+  margin-top: 70px;
+}
+
+.contact-me {
+  padding-top: 60px;
+  padding-bottom: 100px;
+}
+
+.main-contact {
+  padding: 70px 0 0;
+}
+
+.main-contact h2 {
+  font-weight: 50%;
+  font-size: 30px;
+}
+
+.footer {
+  padding: 10px;
+}
+.footer p {
+  font-size: 12px;
+}
+
+/* Style rule for tablets*/
+@media (max-width: 900px) {
+  h1 {
+    font-size: 55px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  p {
+    font-size: 16px;
+  }
+
+  .container {
+    text-align: center;
+  }
+  .header {
+    padding: 0;
+    margin: 0;
+    margin-top: 200px;
+  }
+
+  .footer {
+    margin: 0px;
+    padding: 20px;
+  }
+
+  /* Style rule for home-page */
+  #about {
+    text-align: center;
+  }
+
+  .article-paragraph {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+
+  /* Style rule for project-page */
+  .project-page {
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+
+  /* Style rule for the contact-page */
+  .main-contact {
+    margin-top: 100px;
+  }
+
+  .main-contact h1 {
+    font-size: 65px;
+    padding-bottom: 80px;
+  }
+
+  .main-contact {
+    margin-bottom: 220px;
+  }
+
+  .main-contact p {
+    padding-bottom: 30px;
+  }
+}
+
+/* Style rule for mobile devices*/
+@media (max-width: 576px) {
+  /* Style rulde for homepage */
+  body {
+    background-color: black;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  .header {
+    padding: 0;
+    margin: 0;
+    margin-top: 70px;
+  }
+
+  .h2-home {
+    margin-top: 20px;
+  }
+  .contact-me {
+    margin-top: 0;
+    padding-top: 0;
+  }
+
+  .container-index {
+    margin-top: 0;
+  }
+
+  .aticle-container {
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
+  .img-thumbnail {
+    padding-top: 0;
+    margin-top: 0;
+  }
+
+  /* Style rule for the contact-page */
+  .main-contact {
+    margin-bottom: 60px;
+  }
+
+  .main-contact h1 {
+    font-size: 40px;
+  }
+  .main-contact p {
+    padding-bottom: 30px;
+  }
+
+  /* Style rule for the project-page */
+  .footer-projects {
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+}
