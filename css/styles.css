@@ -52,6 +52,10 @@ img {
 .container-index {
   margin-top: 70px;
 }
+
+.container-index img {
+  border-radius: 150px;
+}
 .contact-me {
   padding-top: 60px;
   padding-bottom: 70px;
