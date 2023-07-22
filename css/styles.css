@@ -38,6 +38,7 @@ img {
   width: 65%;
 }
 
+/* Style rule for the header */
 /*Style rule for the navbar*/
 .kuli-logo {
   width: 5%;
@@ -51,11 +52,15 @@ img {
 .container-index {
   margin-top: 70px;
 }
-
 .contact-me {
   padding-top: 60px;
-  padding-bottom: 100px;
+  padding-bottom: 70px;
 }
+
+.emoji-skills p {
+  font-size: 18px;
+}
+/* Style rule for the contact page */
 
 .main-contact {
   padding: 70px 0 0;
@@ -64,6 +69,22 @@ img {
 .main-contact h2 {
   font-weight: 50%;
   font-size: 30px;
+}
+
+.main-contact a {
+  text-decoration: none;
+}
+
+/* Style rule for the images in projects */
+.image-container img {
+  filter: grayscale(50%);
+  transition: filter 0.3s ease, transform 0.3s ease;
+  transform-origin: center center;
+}
+
+.image-container img:hover {
+  filter: grayscale(0%);
+  transform: scale(1.09);
 }
 
 .footer {
@@ -85,13 +106,15 @@ img {
     font-size: 16px;
   }
 
+  .container-home {
+    padding-top: 50px;
+  }
   .container {
     text-align: center;
   }
   .header {
     padding: 0;
     margin: 0;
-    margin-top: 200px;
   }
 
   .footer {
@@ -117,7 +140,7 @@ img {
 
   /* Style rule for the contact-page */
   .main-contact {
-    margin-top: 100px;
+    padding-top: 50px;
   }
 
   .main-contact h1 {
@@ -125,12 +148,17 @@ img {
     padding-bottom: 80px;
   }
 
+  .main-contact h2 {
+    font-size: 30px;
+  }
+
   .main-contact {
-    margin-bottom: 220px;
+    margin-bottom: 0;
   }
 
   .main-contact p {
     padding-bottom: 30px;
+    font-size: 18px;
   }
 }
 
@@ -179,10 +207,11 @@ img {
   }
 
   .main-contact h1 {
-    font-size: 40px;
+    font-size: 30px;
+    padding-top: 20px;
   }
   .main-contact p {
-    padding-bottom: 30px;
+    padding-bottom: 20px;
   }
 
   /* Style rule for the project-page */
